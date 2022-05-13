@@ -25,12 +25,12 @@ html, body {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 80%;
+  width: 92%;
   margin: auto;
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid #A484BE;
   text-align: center;
   padding: 8px;
   font-family: "Times New Roman", Times, serif;

@@ -53,6 +53,7 @@ function displayCost() {
     sizeCost = TWELVE_PACK
   } 
 
+
   // if statement for cost of drink
   if ((drink == "pepsi") || (drink == "Fresca")) {
     drinkCost = SODA_COST
@@ -79,8 +80,8 @@ function displayCost() {
 
 
   // Displaying the results to the user screen
-  document.getElementById("subtotal").innerHTML = "Your subtotal is $" + subtotal.toFixed(2)
-  document.getElementById("tax").innerHTML = "Tax: $" + tax.toFixed(2)
-  document.getElementById("total").innerHTML = "Your total is $" + total.toFixed(2)
-  document.getElementById("message").innerHTML = "Enjoy your " + flavour.toUpperCase()  + " flavoured doughtnut!"
+    document.getElementById("subtotal").innerHTML = "Your subtotal is $" + subtotal.toFixed(2)
+    document.getElementById("tax").innerHTML = "Tax: $" + tax.toFixed(2)
+    document.getElementById("total").innerHTML = "Your total is $" + total.toFixed(2)
+    document.getElementById("message").innerHTML = "Enjoy your " + flavour.toUpperCase()  + " flavoured doughtnut!"
 }
