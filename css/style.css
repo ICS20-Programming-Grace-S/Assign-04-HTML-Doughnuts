@@ -1,0 +1,85 @@
+/*Created by: Grace S
+*Created on: Mar 2022
+*This CSS file defines the style for index.html
+*ICS2O-Unit1-04-HTML-CSS
+*/
+
+html, body {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+}
+
+.mdl-layout-title {
+  display: flex;
+  justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	font-weight: bold;
+  height: 50px;
+  font-family:Monospace;
+  font-size: 30px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+body {
+  background-color: rgb(195, 195, 229);
+  text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  background-color: #443266;
+  color: #F1F0FF;
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-family:Monospace;
+  font-size: 30px;
+}
+
+h2 {
+  border-style: solid;
+  background-color: #443266;
+  color: #443266;
+  border-color: hsl(240, 40%, 83%);
+  text-align: center;
+
+}
+
+h4 {
+  border-style: solid;
+  background-color: #F1F0FF;
+  color: #443266;
+  border-color: #443266;
+  text-align: center;
+}
+
+#toppings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
