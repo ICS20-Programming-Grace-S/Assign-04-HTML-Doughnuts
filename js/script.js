@@ -1,3 +1,7 @@
+// Created by: Grace S
+// Created on: April 2022
+// This file contains the JS functions for index.html
+
 "use strict";
 
 function displayCost() {
@@ -83,5 +87,5 @@ function displayCost() {
     document.getElementById("subtotal").innerHTML = "Your subtotal is $" + subtotal.toFixed(2)
     document.getElementById("tax").innerHTML = "Tax: $" + tax.toFixed(2)
     document.getElementById("total").innerHTML = "Your total is $" + total.toFixed(2)
-    document.getElementById("message").innerHTML = "Enjoy your " + flavour.toUpperCase()  + " flavoured doughtnut!"
+    document.getElementById("message").innerHTML = "Enjoy your " + flavour.toUpperCase()  + " flavoured doughnut!"
 }
